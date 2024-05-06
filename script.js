@@ -361,7 +361,7 @@ user(userName); */
   console.log(date);
 } */
 
-function randomNumber() {
+/* function randomNumber() {
   var computerNumber = Math.floor(Math.random() * 10) + 1;
   console.log(computerNumber);
 }
@@ -387,4 +387,131 @@ function colorGenerator() {
   document.write(
     `<h1 style="background-color: rgb(${red}, ${green}, ${blue})">RGB(${red}, ${green}, ${blue})</h1>`
   );
+} */
+
+// 02-May-2024
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+
+// console.log(i, 'outside loop value')
+
+// console.log("========================");
+
+// let x;
+
+// for (let x = 0; x < 10; x++) {
+//   console.log(x);
+// }
+// console.log(x, 'outside loop value')
+
+// console.log("========================");
+
+// for (var i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+// console.log(i, 'outside loop value')
+
+// function abc(params) {
+//   var name = "xyz";
+//   console.log(name)
+// }
+// abc();
+
+/* function tellTime() {
+  var now = new Date();
+  var theHr = now.getHours();
+  var theMin = now.getMinutes();
+  console.log(theHr, theMin);
+  alert("Current time: "+ theHr + ":" + theMin);
 }
+tellTime(); */
+
+/* function foo(a, b, c = 20){
+  console.log(a+b+c);
+}
+foo(5, 10, 40); */
+
+/* function foo(a, b, c) {
+  console.log(a+b+c);
+}
+foo(+prompt("enter value1"), +prompt("enter value2"), +prompt("enter value3")) */
+/* var a = +prompt("enter value1");
+var b = +prompt("enter value1");
+var c = +prompt("enter value1");
+function foo(a, b, c) {
+  console.log(a+b+c);
+}
+foo(); */
+
+/* function foo(a,b,c) {
+  var ans = a+b+c;
+  return ans;
+}
+foo(2,5,10);
+console.log(ans) */
+
+/* function checkNum(a) {
+  if(a%2 == 0){
+    console.log("even number")
+  }else{
+    console.log("odd Number")
+  }
+}
+checkNum(5) */
+
+/* function checkNum(a) {
+  var ans = a%2=== 0;
+  return ans
+}
+console.log(checkNum(5)); */
+
+/* function fo o(a) {
+  var ans = a%2===0;
+  return ans
+}
+console.log(foo(2)) */
+
+// Class Practice
+/* var user = prompt("enter your name")
+function adc() {
+  return user[0];
+} 
+console.log(adc()); */
+/* var user = prompt("enter a word");
+function palindrome() {
+  if(user === user){
+    console.log(user +" this is palindrome " + user.split("").reverse().join(""));
+  }
+}
+palindrome(); */
+/* var user = prompt("enter your")
+function bigWord() {
+  if(cpd){
+
+  }
+} */
+
+// 04 May 2024
+/* let now = new Date("14-Aug-2024");
+console.log(now) */
+
+/* let currentDate = new Date();
+let now = new Date("14-Aug-2024");
+let differenceBetween =  now - currentDate;
+let difference = Math.floor(differenceBetween/1000/60/60/24);
+console.log(difference) */
+
+// let currentDate = new Date();
+// let now = new Date("jan-2050");
+
+/* for (let i = 24; i <= 50; i++) {
+  let date = new Date(`1-jan-{i}`);
+  let string = date.toString();
+  if(string.slice(0, 0+3)){
+    console.log("Sunday", i)
+  }
+} */
+
+
