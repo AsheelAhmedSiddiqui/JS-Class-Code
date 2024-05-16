@@ -658,3 +658,102 @@ console.log(text)  */
 //   var text = (document.getElementById("text").innerText = 0);
 // }
 
+// JS Destructing
+// var arr = ['ali','ahmed','siddiqui','pasha','mughal'];
+// // destructing
+// var [a,b,c,d,e] = arr;
+
+// const numbersOne = [1, 2, 3];
+// const numbersTwo = [4, 5, 6];
+// const numbersCombined = [...numbersOne, ...numbersTwo];
+
+// var number = 2.1;
+// console.log(number.toFixed(2));
+
+// Ternary Operator
+// syntax
+// condition ? expression1 : expression2
+
+// var age = 18;
+// var msg = (age < 20) ? "you are eligible for vote" : "you are not eligible for vote";
+// console.log(msg);
+
+// While loop
+// var i = 0;
+// while (i <= 3) {
+//   console.log(i);
+//   i++;
+// }
+
+// var arr = ['ali','ahmed','siddiqui','pasha','mughal'];
+// for (let i = 0; i < arr.length; i++) {
+//   // const element = array[i];
+//   console.log(arr[i]);
+// }
+
+// let i = 0;
+// while (i < arr.length) {
+//   console.log(arr[i]);
+//   i++
+// }
+
+// for of loop
+// var arr = ["ali", "ahmed", "siddiqui", "pasha", "mughal"];
+// var userValue = "pasha";
+// for (i of arr) {
+//   console.log(i)
+// }
+
+// for (let i = 0; i < arr.length; i++) {
+//   if(arr[i] == userValue){
+//     console.log(i)
+//   }
+// }
+
+// var arr = ["ali", "ahmed", "siddiqui", "pasha", "mughal"];
+// var userValue = "pasha";
+// var index = 0
+// for (i of arr) {
+
+//   if (i == userValue) {
+//     // index = i
+//     // console.log(index);
+//     break
+//     }
+//     index++;
+// }
+
+// console.log(index)
+
+// do while loop
+// var i = 0;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 3);
+
+// var btn = document.getElementById("save");
+// // function greet() {
+// //   alert("hi");
+// // }
+// btn.addEventListener("click", function greet() {
+//   alert("hi");
+// });
+
+
+var btn = document.getElementById("btn");
+var img = document.getElementById("img");
+var flag;
+function changeImg() {
+  if (flag == 0) {
+    img.src = "img/on.jpg";
+    btn.innerText = "off";
+    flag = 1;
+  }else{
+    img.src = "img/off.jpg";
+    btn.innerText = "on";
+    flag = 0;
+  }
+}
+btn.addEventListener('click', changeImg);
+
