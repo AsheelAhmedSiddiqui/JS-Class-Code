@@ -514,4 +514,147 @@ console.log(difference) */
   }
 } */
 
+// 07-May-2024
+
+/* var userName = "xyz";
+function foo() {
+  
+} */
+
+// Switch Statement
+/* var day = "tue";
+switch (day) {
+  case "mon":
+    console.log("Today is Monday");
+    break;
+  case "tue":
+    console.log("Today is Tuesday");
+    break;
+  case "wed":
+    console.log("Today is Wednesday");
+    break;
+  case "thur":
+    console.log("Today is Thursday");
+    break;
+  case "fri":
+    console.log("Today is Friday");
+    break;
+  case "sat":
+    console.log("Today is Saturday");
+    break;
+  case "sun":
+    console.log("Today is Sunday");
+    break;
+  default:
+    console.log("Invalid day");
+    break;
+} */
+
+// take user input for two numbers
+/* let number1 = Number(prompt("Enter the value of number1: "));
+let number2 = Number(prompt("Enter the value of number2: ")); */
+
+// take user input to select an operator
+/* const operator = prompt("Enter a operator ( either +, -, * or / ): ");
+
+switch (operator) {
+  case "+":
+    result = number1 + number2;
+    console.log(`${number1} + ${number2} = ${result}`);
+    break;
+
+  case "-":
+    result = number1 - number2;
+    console.log(`${number1} - ${number2} = ${result}`);
+    break;
+
+  case "*":
+    result = number1 * number2;
+    console.log(`${number1} * ${number2} = ${result}`);
+    break;
+
+  case "/":
+    result = number1 / number2;
+    console.log(`${number1} / ${number2} = ${result}`);
+    break;
+
+  default:
+    console.log("Invalid operator");
+} */
+
+// Program to categorize age
+/* 
+let age = 20;
+
+switch (age) {
+
+    // when age is 13, 14, or 15
+    case 13:
+    case 14:
+    case 15:
+        console.log("Early Teen")
+        break;
+
+    // when age is 16 or 17
+    case 16:
+    case 17:
+        console.log("Mid Teen");
+        break;
+
+    // when age is 18 or 19
+    case 18:
+    case 19:
+        console.log("Late Teen");
+        break;
+
+    // when age is none of the above
+    default:
+        console.log("Other Age Group");
+} */
+
+// Little DOM Topic
+/* var text = document.getElementById("text").innerHTML;
+console.log(text)  */
+
+/* function show() {
+  var current = new Date();
+  var currDate =  current.getDate();
+  var currMonth = current.getMonth()+1;
+  var currYear = current.getFullYear()
+  var date = document.getElementById("date").value;
+  var month = document.getElementById("month").value;
+  var year = document.getElementById("year").value;
+  var container = document.getElementById("container"); 
+  container.innerText = currYear - year + " years " + currMonth + " months " + currDate + " days";
+} */
+
+// var data = 0
+// function show() {
+//   var text = document.getElementById("text").innerText = 0;
+// }
+
+// var data = 0;
+// var text = (document.getElementById("text").innerText = data);
+// function increment() {
+//   data++;
+//   var text = (document.getElementById("text").innerText = data);
+//   text.innerText = data;
+//   if (data < 0) {
+//     var text = (document.getElementById("text").innerText = 0);
+//   }
+// }
+// function decrement() {
+//   --data;
+//   var text = (document.getElementById("text").innerText = data);
+//   text.innerText = data;
+//   // console.log(typeof text)
+
+//   if (data < 0) {
+//     var text = (document.getElementById("text").innerText = 0);
+//   }
+// }
+
+// function reset() {
+//   var text = (document.getElementById("text").innerText = 0);
+// }
 
