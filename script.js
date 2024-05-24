@@ -740,8 +740,7 @@ console.log(text)  */
 //   alert("hi");
 // });
 
-
-var btn = document.getElementById("btn");
+/* var btn = document.getElementById("btn");
 var img = document.getElementById("img");
 var flag;
 function changeImg() {
@@ -749,11 +748,93 @@ function changeImg() {
     img.src = "img/on.jpg";
     btn.innerText = "off";
     flag = 1;
-  }else{
+  } else {
     img.src = "img/off.jpg";
     btn.innerText = "on";
     flag = 0;
   }
 }
-btn.addEventListener('click', changeImg);
+btn.addEventListener("click", changeImg); */
 
+// function sum(a, b) { // funciton declaration
+//   return a+b;
+// }
+
+// let add = function(){ // funciton experssion
+//   return a+b;
+// }
+
+// Arrow Function
+
+// arrow funciton for single line
+/* let sum = (a,b)=> a+b;
+console.log(sum(10, 3)); */
+
+// arrow function for multiples line
+// let sum = (a, b) => {
+//   return a + b;
+// }
+// console.log(sum(10, 3))
+
+// Nested funciton
+/* function outer() {
+  console.log("outer function");
+  function inner() {
+    console.log("inner function");
+  }
+  inner()
+}
+outer() */
+
+/* function outer() {
+  console.log("outer function");
+  function inner() {
+    console.log("inner function");
+    function inner2() {
+      console.log("inner2 function");
+      }
+      inner2()
+  }
+  inner()
+}
+outer(); */
+
+// lexical scope
+/* let a = 5;
+function outer() {
+  let a = 10;
+  console.log("outer" + a);
+  function inner() {
+    let a = 13;
+    console.log("inner" + a);
+  }
+  inner()
+}
+outer(); */
+
+// rest parameter es 6
+
+// function add(...a) {
+//   let sum = 0;
+//   for (index of a) {
+//     // console.log(index)
+//     sum += index;
+//   }
+//   return sum
+// }
+
+// let ans = add(1,2,3,5,67,8,99,9,10,9);
+
+// console.log(ans);
+
+function capital(...a) {
+  let final = [];
+  for (i of a) {
+    console.log(i);
+    final.push(i.toUpperCase());
+  }
+  return final
+}
+
+let ans = capital('ali','ahmed','siddiqui','muneer')
+console.log(ans)
