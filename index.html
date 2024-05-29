@@ -6,7 +6,36 @@
     <title>JS Pratice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <body>
+  <body id="body">
+    <style>
+      /* body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      p{
+        font-size: 2rem;
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+      } */
+      /* img {
+        transition: all 0.3s;
+      } */
+      .common {
+        font-weight: bold;
+        font-size: 1.4rem;
+        padding: 10px;
+        border: 1px solid;
+        width: 18px;
+      }
+      .common:hover {
+        background-color: #f0f0f0;
+        cursor: pointer;
+      }
+    </style>
     <!-- <h1 id="text">Hello JavaScript</h1>
     <input type="text" id="name">
     <button onclick="show()">click me</button> -->
@@ -102,8 +131,8 @@
     <button onclick="decrement()">decrement</button>
     <button onclick="reset()">reset</button> -->
     <!-- <a href="#" onClick="alert('Hi');">Click</a> -->
-    <center>
-      <h1>JavaScript Event Handler</h1>
+    <!-- <center> -->
+      <!-- <h1>JavaScript Event Handler</h1>
       <img width="200px" src="img/off.jpg" id="img" />
       <br />
       <br />
@@ -122,7 +151,18 @@
       >
         On
       </button>
-    </center>
-    <script src="script.js"></script>
+    </center> -->
+    <!-- <div class="container">
+    </div> -->
+    <!-- <p id="code"></p> -->
+    
+    <!-- <img src="img/off.jpg" id="img"> -->
+    <br>
+    <span id="bold" class="common">B</span>
+    <span id="italic" class="common">I</span>
+    <br>
+    <br>
+    <input id="textarea">
   </body>
+  <script src="script.js"></script>
 </html>

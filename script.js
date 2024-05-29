@@ -827,14 +827,88 @@ outer(); */
 
 // console.log(ans);
 
-function capital(...a) {
-  let final = [];
-  for (i of a) {
-    console.log(i);
-    final.push(i.toUpperCase());
-  }
-  return final
-}
+// function capital(...a) {
+//   let final = [];
+//   for (i of a) {
+//     console.log(i);
+//     final.push(i.toUpperCase());
+//   }
+//   return final
+// }
 
-let ans = capital('ali','ahmed','siddiqui','muneer')
-console.log(ans)
+// let ans = capital('ali','ahmed','siddiqui','muneer')
+// console.log(ans)
+
+// Image Slider
+
+// let img1 = document.getElementById('img1');
+// let img2 = document.getElementById('img2');
+// let img3 = document.getElementById('img3');
+// let sec = 0;
+
+// timer = setInterval(() => {
+//   sec++
+//   console.log(sec);
+//   if(sec > 10){
+//     img2.style.display = 'block';
+//     img1.style.display = 'none';
+//   }
+//   if (sec > 15) {
+//     img2.style.display = 'none';
+//     img1.style.display = 'block';
+//   }
+//   if(sec > 25){
+//     img3.style.display = 'block';
+//     img1.style.display = 'none';
+//     img2.style.display = 'none';
+//   }
+// }, 1000);
+
+// let img = document.getElementById("img");
+
+// let imgArray = ["img/on.jpg", "img/off.jpg", "img/time-out.jpg"];
+
+// let index = 0;
+// function change() {
+//   index = (index+1)%imgArray.length;
+//   img.src = imgArray[index];
+// }
+
+// setInterval(change, 3000);
+
+// let body = document.getElementById('body');
+// let showColorCode = document.getElementById('code')
+// function randomColor() {
+//   let color1 = Math.round(Math.random()*255);
+//   let color2 = Math.round(Math.random()*255);
+//   let color3 = Math.round(Math.random()*255);
+//   showColorCode.innerText = `rgb(${color1},${color2},${color3})`;
+//   return `rgb(${color1},${color2},${color3})`
+// }
+// setInterval(()=>{
+//   body.style.backgroundColor = randomColor();
+// }, 1000)
+
+// let img = document.getElementById('img');
+// img.addEventListener('mouseover', ()=> {
+//   img.style.transform = 'scale(1.5)';
+// })
+// img.addEventListener('mouseout', ()=> {
+//   img.style.transform = 'scale(1)';
+// })
+
+let bold = document.getElementById('bold');
+let italic = document.getElementById('italic');
+let textArea = document.getElementById('textarea');
+
+bold.addEventListener('click', ()=> {
+  // console.log(textArea.value)
+  let text = textArea.value;
+  textArea.style.fontWeight = 'bold'
+})
+
+italic.addEventListener('click', ()=> {
+  // console.log(textArea.value)
+  let text = textArea.value;
+  textArea.style.fontStyle = 'italic'
+})
